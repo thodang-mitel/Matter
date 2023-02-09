@@ -1,0 +1,6 @@
+use_frameworks!
+
+target 'CHIPTool' do
+   platform :ios, '12.1'
+   pod 'Matter', :path => '/Users/dtmtho/Downloads/connectedhomeip-master/src/darwin/Framework'
+end
