@@ -17,7 +17,7 @@
 
 #import <Foundation/Foundation.h>
 
-#include <app/MessageDef/StatusIB.h>
+#include "app/MessageDef/StatusIB.h"
 #include <lib/core/CHIPError.h>
 
 NS_ASSUME_NONNULL_BEGIN
