@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "Matter"
-  spec.version      = "0.0.7"
+  spec.version      = "0.0.8"
   spec.summary      = "A short description of Matter."
   spec.homepage     = "https://github.com/thodang-mitel/Matter"
   spec.license      = "MIT"
