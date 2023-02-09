@@ -2,5 +2,6 @@ use_frameworks!
 
 target 'CHIPTool' do
    platform :ios, '13.4'
-   pod 'Matter', :path => '/Users/dtmtho/darwin'
+   pod 'BMatter', :git => 'git@github.com:thodang-mitel/BMatter.git', :branch => 'main'
+   
 end

@@ -1,0 +1,6 @@
+framework module BMatter {
+  umbrella header "BMatter-umbrella.h"
+
+  export *
+  module * { export * }
+}

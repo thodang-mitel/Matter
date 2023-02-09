@@ -1,16 +1,22 @@
 PODS:
-  - Matter (0.0.3)
+  - BMatter (0.0.1)
 
 DEPENDENCIES:
-  - Matter (from `/Users/dtmtho/darwin`)
+  - "BMatter (from `git@github.com:thodang-mitel/BMatter.git`, branch `main`)"
 
 EXTERNAL SOURCES:
-  Matter:
-    :path: "/Users/dtmtho/darwin"
+  BMatter:
+    :branch: main
+    :git: "git@github.com:thodang-mitel/BMatter.git"
+
+CHECKOUT OPTIONS:
+  BMatter:
+    :commit: f5ae538425940f954886f3b57cd88774329f5aaf
+    :git: "git@github.com:thodang-mitel/BMatter.git"
 
 SPEC CHECKSUMS:
-  Matter: 0a33c5cc95c75bd63215c000b61a5803a53f2bdc
+  BMatter: dd4716563a972b2cd3d318e1356c6689ab530395
 
-PODFILE CHECKSUM: 9cf094c703a3a29ac6a7f0a2f8b65d267d438659
+PODFILE CHECKSUM: 6edeb6d9567df434f84f9361b77e0ff56cc4d8a3
 
 COCOAPODS: 1.11.3
