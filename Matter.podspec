@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.license      = "MIT"
   spec.author             = { "Tho Dang" => "tho.dang@contractor.mitel.com" }
   spec.platform     = :ios, "13.4"
-   spec.source       = { :git => "https://github.com/thodang-mitel/Matter.git", :tag => s.version }
+   spec.source       = { :git => "https://github.com/thodang-mitel/Matter.git", :tag => spec.version }
   spec.source_files  = "Framework/CHIP/*.{h,mm}"
   # spec.public_header_files = "CHIP/*.h"
   # spec.framework  = "Products/Matter"

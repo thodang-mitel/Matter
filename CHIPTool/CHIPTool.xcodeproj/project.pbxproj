@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,7 @@
 		2C21071525D1A8F200DDA4AD /* MultiAdminViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C21071325D1A8F200DDA4AD /* MultiAdminViewController.m */; };
 		2C460C2425D7594B000512D6 /* DeviceSelector.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C460C2325D7594B000512D6 /* DeviceSelector.m */; };
 		2C460C3225D97CB3000512D6 /* UnpairDevicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C460C3025D97CB3000512D6 /* UnpairDevicesViewController.m */; };
+		4C518F9A66534C52F89586BC /* Pods_CHIPTool.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2FC8B1E08E89CAFE6533FFD /* Pods_CHIPTool.framework */; };
 		51C8E3FB28261DCF00D47D00 /* FabricKeys.m in Sources */ = {isa = PBXBuildFile; fileRef = 51C8E3FA28261DCF00D47D00 /* FabricKeys.m */; };
 		991DC091247747F500C13860 /* EnumerateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 991DC090247747F500C13860 /* EnumerateViewController.m */; };
 		B204A621244E1D0600C7C0E1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B204A620244E1D0600C7C0E1 /* AppDelegate.m */; };
@@ -26,9 +27,8 @@
 		B2C2267526289324009DAB8B /* FabricUIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C2267426289324009DAB8B /* FabricUIViewController.m */; };
 		B2F51E99252DCDC000911FA5 /* TemperatureSensorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2F51E98252DCDC000911FA5 /* TemperatureSensorViewController.m */; };
 		B2F53AEB245B0D140010745E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2F53AE9245B0D140010745E /* LaunchScreen.storyboard */; };
+		B46624492994CEA80030261E /* Pods_CHIPTool.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = C2FC8B1E08E89CAFE6533FFD /* Pods_CHIPTool.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B4F926C02993AA310067B946 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B4F926BF2993AA2C0067B946 /* Podfile */; };
-		D437613C285BC0060051FEA2 /* Matter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D437613B285BC0060051FEA2 /* Matter.framework */; };
-		D437613D285BC0060051FEA2 /* Matter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D437613B285BC0060051FEA2 /* Matter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D437613D285BC0060051FEA2 /* Matter.framework in Embed Frameworks */,
+				B46624492994CEA80030261E /* Pods_CHIPTool.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -68,6 +68,7 @@
 		51C8E3FA28261DCF00D47D00 /* FabricKeys.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FabricKeys.m; sourceTree = "<group>"; };
 		991DC08F247747F500C13860 /* EnumerateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnumerateViewController.h; sourceTree = "<group>"; };
 		991DC090247747F500C13860 /* EnumerateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnumerateViewController.m; sourceTree = "<group>"; };
+		A30AF99526B43F81AEC1C6AF /* Pods-CHIPTool.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHIPTool.debug.xcconfig"; path = "Target Support Files/Pods-CHIPTool/Pods-CHIPTool.debug.xcconfig"; sourceTree = "<group>"; };
 		B204A61C244E1D0600C7C0E1 /* CHIPTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CHIPTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B204A61F244E1D0600C7C0E1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B204A620244E1D0600C7C0E1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -96,7 +97,9 @@
 		B2F51E97252DCDC000911FA5 /* TemperatureSensorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureSensorViewController.h; sourceTree = "<group>"; };
 		B2F51E98252DCDC000911FA5 /* TemperatureSensorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureSensorViewController.m; sourceTree = "<group>"; };
 		B2F53AEA245B0D140010745E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = UI/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		B4F926BF2993AA2C0067B946 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B4F926BF2993AA2C0067B946 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B895DA57833F92CA519192AE /* Pods-CHIPTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHIPTool.release.xcconfig"; path = "Target Support Files/Pods-CHIPTool/Pods-CHIPTool.release.xcconfig"; sourceTree = "<group>"; };
+		C2FC8B1E08E89CAFE6533FFD /* Pods_CHIPTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHIPTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D437613B285BC0060051FEA2 /* Matter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Matter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -105,7 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D437613C285BC0060051FEA2 /* Matter.framework in Frameworks */,
+				4C518F9A66534C52F89586BC /* Pods_CHIPTool.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				D437613B285BC0060051FEA2 /* Matter.framework */,
+				C2FC8B1E08E89CAFE6533FFD /* Pods_CHIPTool.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -180,6 +184,7 @@
 				B204A63A244E1D0700C7C0E1 /* CHIPToolTests */,
 				B204A61D244E1D0600C7C0E1 /* Products */,
 				B20252DE2459EC7600F97062 /* Frameworks */,
+				E1AB7026352331E8FCEBE70D /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -295,6 +300,15 @@
 			path = "Temperature Sensor";
 			sourceTree = "<group>";
 		};
+		E1AB7026352331E8FCEBE70D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A30AF99526B43F81AEC1C6AF /* Pods-CHIPTool.debug.xcconfig */,
+				B895DA57833F92CA519192AE /* Pods-CHIPTool.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -302,10 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B204A64B244E1D0700C7C0E1 /* Build configuration list for PBXNativeTarget "CHIPTool" */;
 			buildPhases = (
+				F52468D7A20E16926A17E4E8 /* [CP] Check Pods Manifest.lock */,
 				B204A618244E1D0600C7C0E1 /* Sources */,
 				B204A619244E1D0600C7C0E1 /* Frameworks */,
 				B204A61A244E1D0600C7C0E1 /* Resources */,
 				D437613A285BBE3B0051FEA2 /* Embed Frameworks */,
+				D17F1C96B5EE629E3C41F7A5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -390,6 +406,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D17F1C96B5EE629E3C41F7A5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHIPTool/Pods-CHIPTool-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CHIPTool/Pods-CHIPTool-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CHIPTool/Pods-CHIPTool-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F52468D7A20E16926A17E4E8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CHIPTool-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B204A618244E1D0600C7C0E1 /* Sources */ = {
@@ -566,12 +624,13 @@
 		};
 		B204A64C244E1D0700C7C0E1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30AF99526B43F81AEC1C6AF /* Pods-CHIPTool.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CHIPTool/CHIPTool.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6QJ45CE63B;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CHIPTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -579,7 +638,7 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matter.CHIPTool;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matter.CHIPTool-abc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
@@ -590,12 +649,13 @@
 		};
 		B204A64D244E1D0700C7C0E1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B895DA57833F92CA519192AE /* Pods-CHIPTool.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = CHIPTool/CHIPTool.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 6QJ45CE63B;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = CHIPTool/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -603,7 +663,7 @@
 					"@executable_path/Frameworks",
 				);
 				ONLY_ACTIVE_ARCH = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = com.matter.CHIPTool;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.matter.CHIPTool-abc";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
