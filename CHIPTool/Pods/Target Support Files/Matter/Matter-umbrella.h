@@ -77,6 +77,6 @@
 #import "NSDataSpanConversion.h"
 #import "NSStringSpanConversion.h"
 
-FOUNDATION_EXPORT double BMatterVersionNumber;
-FOUNDATION_EXPORT const unsigned char BMatterVersionString[];
+FOUNDATION_EXPORT double MatterVersionNumber;
+FOUNDATION_EXPORT const unsigned char MatterVersionString[];
 

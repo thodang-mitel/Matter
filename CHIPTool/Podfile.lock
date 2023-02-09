@@ -1,22 +1,22 @@
 PODS:
-  - BMatter (0.0.1)
+  - Matter (0.0.8)
 
 DEPENDENCIES:
-  - "BMatter (from `git@github.com:thodang-mitel/BMatter.git`, branch `main`)"
+  - "Matter (from `git@github.com:thodang-mitel/Matter.git`, branch `main`)"
 
 EXTERNAL SOURCES:
-  BMatter:
+  Matter:
     :branch: main
-    :git: "git@github.com:thodang-mitel/BMatter.git"
+    :git: "git@github.com:thodang-mitel/Matter.git"
 
 CHECKOUT OPTIONS:
-  BMatter:
-    :commit: f5ae538425940f954886f3b57cd88774329f5aaf
-    :git: "git@github.com:thodang-mitel/BMatter.git"
+  Matter:
+    :commit: 581ed38aae73cd3b977f24fe346a52b1aef35793
+    :git: "git@github.com:thodang-mitel/Matter.git"
 
 SPEC CHECKSUMS:
-  BMatter: dd4716563a972b2cd3d318e1356c6689ab530395
+  Matter: c47e32b20a613aea8f7d0d4d4e8c313b7ae84deb
 
-PODFILE CHECKSUM: 6edeb6d9567df434f84f9361b77e0ff56cc4d8a3
+PODFILE CHECKSUM: 4ca92e3728c40da58c0df0bf7518626951135574
 
 COCOAPODS: 1.11.3

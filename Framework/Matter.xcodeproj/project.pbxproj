@@ -186,7 +186,7 @@
 		B46629A02994CF610030261E /* AttributeDataIBs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B46624742994CF5E0030261E /* AttributeDataIBs.cpp */; };
 		B46629A12994CF610030261E /* InvokeRequests.h in Headers */ = {isa = PBXBuildFile; fileRef = B46624752994CF5E0030261E /* InvokeRequests.h */; };
 		B46629A22994CF610030261E /* InvokeRequests.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B46624762994CF5E0030261E /* InvokeRequests.cpp */; };
-		B46629A32994CF610030261E /* StatusIB.h in Headers */ = {isa = PBXBuildFile; fileRef = B46624772994CF5E0030261E /* StatusIB.h */; };
+		B46629A32994CF610030261E /* StatusIB.h in Headers */ = {isa = PBXBuildFile; fileRef = B46624772994CF5E0030261E /* StatusIB.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B46629A42994CF610030261E /* TimedRequestMessage.h in Headers */ = {isa = PBXBuildFile; fileRef = B46624782994CF5E0030261E /* TimedRequestMessage.h */; };
 		B46629A52994CF610030261E /* AttributeDataIB.h in Headers */ = {isa = PBXBuildFile; fileRef = B46624792994CF5E0030261E /* AttributeDataIB.h */; };
 		B46629A62994CF610030261E /* InvokeRequestMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B466247A2994CF5E0030261E /* InvokeRequestMessage.cpp */; };
@@ -1608,7 +1608,7 @@
 		B46630C22994D3130030261E /* FixedBufferAllocator.h in Headers */ = {isa = PBXBuildFile; fileRef = B4662F412994D3110030261E /* FixedBufferAllocator.h */; };
 		B46630C32994D3130030261E /* DLLUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = B4662F422994D3110030261E /* DLLUtil.h */; };
 		B46630C42994D3130030261E /* CHIPLogging.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4662F442994D3110030261E /* CHIPLogging.cpp */; };
-		B46630C52994D3130030261E /* CHIPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = B4662F452994D3110030261E /* CHIPLogging.h */; };
+		B46630C52994D3130030261E /* CHIPLogging.h in Headers */ = {isa = PBXBuildFile; fileRef = B4662F452994D3110030261E /* CHIPLogging.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B46630C62994D3130030261E /* Constants.h in Headers */ = {isa = PBXBuildFile; fileRef = B4662F462994D3110030261E /* Constants.h */; };
 		B46630C72994D3130030261E /* BytesCircularBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = B4662F472994D3110030261E /* BytesCircularBuffer.h */; };
 		B46630C82994D3130030261E /* CHIPPlatformMemory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4662F482994D3110030261E /* CHIPPlatformMemory.cpp */; };
@@ -6544,6 +6544,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B46629A32994CF610030261E /* StatusIB.h in Headers */,
+				B46630C52994D3130030261E /* CHIPLogging.h in Headers */,
 				B4662A3F2994CF610030261E /* client-monitoring-server.h in Headers */,
 				B46630CE2994D3130030261E /* Variant.h in Headers */,
 				B4662FE12994D3120030261E /* CASEAuthTag.h in Headers */,
@@ -6672,7 +6674,6 @@
 				B46630E32994D3130030261E /* Constants.h in Headers */,
 				B4662D632994CF630030261E /* TestEventTriggerDelegate.h in Headers */,
 				B46629E62994CF610030261E /* WriteResponseMessage.h in Headers */,
-				B46629A32994CF610030261E /* StatusIB.h in Headers */,
 				B46630B42994D3130030261E /* ObjectLifeCycle.h in Headers */,
 				B46631282994D3140030261E /* Logging.h in Headers */,
 				B4662AAB2994CF620030261E /* account-login-delegate.h in Headers */,
@@ -6999,7 +7000,6 @@
 				3D843713294977000070D20A /* NSDataSpanConversion.h in Headers */,
 				991DC08B247704DC00C13860 /* MTRLogging_Internal.h in Headers */,
 				B46630C62994D3130030261E /* Constants.h in Headers */,
-				B46630C52994D3130030261E /* CHIPLogging.h in Headers */,
 				7596A84828762783004DAE0E /* MTRAsyncCallbackWorkQueue.h in Headers */,
 				5A7947E527C0129F00434CF2 /* MTRDeviceController+XPC.h in Headers */,
 				B46629BF2994CF610030261E /* AttributeDataIBs.h in Headers */,
