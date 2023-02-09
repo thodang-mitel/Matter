@@ -3507,7 +3507,6 @@
 		B4662FC72994D3110030261E /* MinimalMdnsServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinimalMdnsServer.h; sourceTree = "<group>"; };
 		B4662FC82994D3110030261E /* ActiveResolveAttempts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActiveResolveAttempts.cpp; sourceTree = "<group>"; };
 		B4662FC92994D3110030261E /* IPAddressSorter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IPAddressSorter.cpp; sourceTree = "<group>"; };
-		B4F926BA2993A6030067B946 /* Matter.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = Matter.podspec; sourceTree = "<group>"; };
 		BA09EB3F2474762900605257 /* libCHIP.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libCHIP.a; path = lib/libCHIP.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA107AEE2470CFBB004287EB /* chip_xcode_build_connector.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = chip_xcode_build_connector.sh; sourceTree = "<group>"; };
 		D437613E285BDC0D0051FEA2 /* MTRErrorTestUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MTRErrorTestUtils.h; sourceTree = "<group>"; };
@@ -3616,7 +3615,6 @@
 		B20252832459E34F00F97062 = {
 			isa = PBXGroup;
 			children = (
-				B4F926BA2993A6030067B946 /* Matter.podspec */,
 				BA107AEE2470CFBB004287EB /* chip_xcode_build_connector.sh */,
 				B202528F2459E34F00F97062 /* CHIP */,
 				B202529A2459E34F00F97062 /* CHIPTests */,

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
   spec.name         = "Matter"
-  spec.version      = "0.0.3"
+  spec.version      = "0.0.4"
   spec.summary      = "A short description of Matter."
   spec.homepage     = "https://github.com/thodang-mitel/Matter"
   spec.license      = "MIT"
@@ -11,5 +11,5 @@ Pod::Spec.new do |spec|
   spec.source_files  = "Framework/CHIP/*.{h,mm}"
   # spec.public_header_files = "CHIP/*.h"
   # spec.framework  = "Products/Matter"
-  # spec.frameworks = "SomeFramework", "AnotherFramework"
+  spec.frameworks = "Security", "libCHIP.a"
 end

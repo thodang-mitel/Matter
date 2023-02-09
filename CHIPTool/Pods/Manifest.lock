@@ -1,5 +1,5 @@
 PODS:
-  - Matter (0.0.2)
+  - Matter (0.0.3)
 
 DEPENDENCIES:
   - Matter (from `/Users/dtmtho/darwin`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "/Users/dtmtho/darwin"
 
 SPEC CHECKSUMS:
-  Matter: fe1c4e923bc53bd673c36b86fbe49525c76dcce8
+  Matter: 0a33c5cc95c75bd63215c000b61a5803a53f2bdc
 
 PODFILE CHECKSUM: 9cf094c703a3a29ac6a7f0a2f8b65d267d438659
 

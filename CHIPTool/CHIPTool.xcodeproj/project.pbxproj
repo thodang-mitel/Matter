@@ -97,6 +97,8 @@
 		B2F51E97252DCDC000911FA5 /* TemperatureSensorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemperatureSensorViewController.h; sourceTree = "<group>"; };
 		B2F51E98252DCDC000911FA5 /* TemperatureSensorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemperatureSensorViewController.m; sourceTree = "<group>"; };
 		B2F53AEA245B0D140010745E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = UI/Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B466313F2994D6C90030261E /* Matter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Matter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B46631412994D6EF0030261E /* Matter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Matter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4F926BF2993AA2C0067B946 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B895DA57833F92CA519192AE /* Pods-CHIPTool.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CHIPTool.release.xcconfig"; path = "Target Support Files/Pods-CHIPTool/Pods-CHIPTool.release.xcconfig"; sourceTree = "<group>"; };
 		C2FC8B1E08E89CAFE6533FFD /* Pods_CHIPTool.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CHIPTool.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -170,6 +172,8 @@
 		B20252DE2459EC7600F97062 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				B46631412994D6EF0030261E /* Matter.framework */,
+				B466313F2994D6C90030261E /* Matter.framework */,
 				D437613B285BC0060051FEA2 /* Matter.framework */,
 				C2FC8B1E08E89CAFE6533FFD /* Pods_CHIPTool.framework */,
 			);
