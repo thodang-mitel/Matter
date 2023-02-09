@@ -1,0 +1,16 @@
+PODS:
+  - Matter (0.0.1)
+
+DEPENDENCIES:
+  - Matter (from `/Users/dtmtho/darwin`)
+
+EXTERNAL SOURCES:
+  Matter:
+    :path: "/Users/dtmtho/darwin"
+
+SPEC CHECKSUMS:
+  Matter: 58f6c3c5ce3505b6774f91ce2c68df1b3818d9c7
+
+PODFILE CHECKSUM: 9cf094c703a3a29ac6a7f0a2f8b65d267d438659
+
+COCOAPODS: 1.11.3

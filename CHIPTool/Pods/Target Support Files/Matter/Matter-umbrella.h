@@ -1,0 +1,82 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#else
+#ifndef FOUNDATION_EXPORT
+#if defined(__cplusplus)
+#define FOUNDATION_EXPORT extern "C"
+#else
+#define FOUNDATION_EXPORT extern
+#endif
+#endif
+#endif
+
+#import "Matter.h"
+#import "MTRAsyncCallbackWorkQueue.h"
+#import "MTRAsyncCallbackWorkQueue_Internal.h"
+#import "MTRAttestationTrustStoreBridge.h"
+#import "MTRAttributeTLVValueDecoder_Internal.h"
+#import "MTRBaseClusterUtils.h"
+#import "MTRBaseDevice.h"
+#import "MTRBaseDevice_Internal.h"
+#import "MTRBaseSubscriptionCallback.h"
+#import "MTRCallbackBridgeBase.h"
+#import "MTRCertificateInfo.h"
+#import "MTRCertificates.h"
+#import "MTRCluster.h"
+#import "MTRClusterStateCacheContainer+XPC.h"
+#import "MTRClusterStateCacheContainer.h"
+#import "MTRClusterStateCacheContainer_Internal.h"
+#import "MTRCluster_Internal.h"
+#import "MTRCommissioningParameters.h"
+#import "MTRControllerAccessControl.h"
+#import "MTRConversion.h"
+#import "MTRCSRInfo.h"
+#import "MTRDefines.h"
+#import "MTRDefines_Internal.h"
+#import "MTRDevice.h"
+#import "MTRDeviceAttestationDelegate.h"
+#import "MTRDeviceAttestationDelegateBridge.h"
+#import "MTRDeviceAttestationDelegate_Internal.h"
+#import "MTRDeviceAttestationInfo.h"
+#import "MTRDeviceConnectionBridge.h"
+#import "MTRDeviceController+XPC.h"
+#import "MTRDeviceController.h"
+#import "MTRDeviceControllerDelegate.h"
+#import "MTRDeviceControllerDelegateBridge.h"
+#import "MTRDeviceControllerFactory.h"
+#import "MTRDeviceControllerFactory_Internal.h"
+#import "MTRDeviceControllerOverXPC.h"
+#import "MTRDeviceControllerOverXPC_Internal.h"
+#import "MTRDeviceControllerStartupParams.h"
+#import "MTRDeviceControllerStartupParams_Internal.h"
+#import "MTRDeviceControllerXPCConnection.h"
+#import "MTRDeviceController_Internal.h"
+#import "MTRDeviceOverXPC.h"
+#import "MTRDevice_Internal.h"
+#import "MTRError.h"
+#import "MTRError_Internal.h"
+#import "MTREventTLVValueDecoder_Internal.h"
+#import "MTRFramework.h"
+#import "MTRKeypair.h"
+#import "MTRLogging.h"
+#import "MTRLogging_Internal.h"
+#import "MTRManualSetupPayloadParser.h"
+#import "MTROnboardingPayloadParser.h"
+#import "MTROperationalCertificateIssuer.h"
+#import "MTROperationalCredentialsDelegate.h"
+#import "MTROTAHeader.h"
+#import "MTROTAProviderDelegate.h"
+#import "MTROTAProviderDelegateBridge.h"
+#import "MTRP256KeypairBridge.h"
+#import "MTRPersistentStorageDelegateBridge.h"
+#import "MTRQRCodeSetupPayloadParser.h"
+#import "MTRSetupPayload.h"
+#import "MTRSetupPayload_Internal.h"
+#import "MTRStorage.h"
+#import "MTRThreadOperationalDataset.h"
+#import "NSDataSpanConversion.h"
+#import "NSStringSpanConversion.h"
+
+FOUNDATION_EXPORT double MatterVersionNumber;
+FOUNDATION_EXPORT const unsigned char MatterVersionString[];
+
